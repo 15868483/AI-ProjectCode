@@ -1,0 +1,27 @@
+{
+"Root":		
+  [
+
+	{"Depository": "Stock Exchange"},
+	{"Depository": "Customer"},
+	{"Depository": "Broker"},
+	{"Depository": "Divident"},
+	
+
+	{"Customer": "Broker"},
+	{"Customer": "Stock Exchange"},
+	{"Customer": "Seller"},
+	{"Customer": "Divident"},
+	{"Customer": "DEMAT ACC."},
+        	{"Customer": "Registrar"},
+
+	{"Clearing House": "Stock Exchange"},
+       	 {"Divident": "Registrar"},
+
+	{"DEMAT ACC.": "Seller"},
+	{"DEMAT ACC.": "Stock Exchange"},
+       	{"DEMAT ACC.": "Broker"},
+        	{"DEMAT ACC.": "Divident"}
+	
+]
+}
